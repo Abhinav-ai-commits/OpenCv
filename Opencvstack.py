@@ -28,3 +28,10 @@ def stackImages(scale,imgArray):
         hor= np.hstack(imgArray)
         ver = hor
     return ver
+
+"""
+Use it like that
+imgStacked = stackImages(scale = 0.5 , [array of image(horixonatlly)] , [array of image(horixonatlly)])
+
+
+"""
